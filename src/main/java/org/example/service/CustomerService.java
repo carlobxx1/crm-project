@@ -1,6 +1,6 @@
 package org.example.service;
-import com.example.crm.model.Customer;
-import com.example.crm.repository.CustomerRepository;
+import org.example.model.Customer;
+import org.example.repository.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -10,21 +10,21 @@ import java.util.Optional;
 @Service
 public class CustomerService {
     @Autowired
-    private CustomerRepository customerRepository;
+     CustomerRepository customerRepository;
 
     public List<Customer> getAllCustomers() {
-        return customerRepository.findAll();
+        return null;
     }
 
     public Optional<Customer> getCustomerById(Long id) {
-        return customerRepository.findById(id);
+        return null;
     }
 
     public Customer addCustomer(Customer customer) {
-        return customerRepository.save(customer);
+        return null;
     }
 
     public void deleteCustomer(Long id) {
-        customerRepository.deleteById(id);
+
     }
 }

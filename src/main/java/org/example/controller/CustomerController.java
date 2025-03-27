@@ -1,7 +1,7 @@
 package org.example.controller;
 
-import com.example.crm.model.Customer;
-import com.example.crm.service.CustomerService;
+import org.example.model.Customer;
+import org.example.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

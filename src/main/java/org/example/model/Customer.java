@@ -1,6 +1,8 @@
 package org.example.model;
 
-import jakarta.persistence.*;
+
+import javax.persistence.*;
+
 @Entity
 @Table(name = "customers")
 public class Customer {
